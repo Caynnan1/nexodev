@@ -15,9 +15,11 @@ export default function Home() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    Conectando <span className="mark">Inovação</span> e <span className="mark">Tecnologia</span> com uma frase de apoio como "Transformamos suas ideias em <span className="mark">soluções digitais</span> de alto impacto".
+                    Conectando <span className="mark">Inovação</span> e <span className="mark">Tecnologia</span> para impulsionar seu <span className="mark">futuro digital</span>.
                 </motion.h1>
-                <h3 className="text-center text-lg md:text-xl">Transformando suas ideias em soluções digitais de alto impacto.</h3>
+                <h3 className="text-center text-lg md:text-xl">
+                    Transformamos suas ideias em <span className="mark">soluções digitais</span> que fazem a diferença.
+                </h3>
             </section>
             <section id="sobre" className="flex flex-col items-center justify-center min-h-[60vh] gap-5 text-wrap p-4">
             <div class="container mx-auto px-6">
