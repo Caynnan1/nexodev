@@ -50,10 +50,10 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        < Blog />
         <Servicos />
         <Portfolio />
         <Contato />
+        < Blog />
         <footer className="bg-gray-800 text-white py-6">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center">
