@@ -4,6 +4,7 @@ import image from '../../../assets/img/undraw_website_5bo8.svg'
 import Servicos from "../../Components/App/Servicos";
 import Contato from "../../Components/App/Contato";
 import { Portfolio } from "../../Components/App/Port";
+import { Blog } from "../../Components/App/Blog";
 
 export default function Home() {
     return (
@@ -49,6 +50,7 @@ export default function Home() {
                 </div>
             </div>
         </section>
+        < Blog />
         <Servicos />
         <Portfolio />
         <Contato />
