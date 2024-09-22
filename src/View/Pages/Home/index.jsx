@@ -4,7 +4,7 @@ import image from '../../../assets/img/undraw_website_5bo8.svg'
 import Servicos from "../../Components/App/Home/Servicos";
 import Contato from "../../Components/App/Home/Contato";
 import { Portfolio } from "../../Components/App/Home/Port";
-import { Blog } from "../../Components/App/Home/Blog";
+import { Avaliacao } from "../../Components/App/Home/Avaliacao";
 
 export default function Home() {
     return (
@@ -52,6 +52,7 @@ export default function Home() {
         </section>
         <Servicos />
         <Portfolio />
+        <Avaliacao />
         <Contato />
         <footer className="bg-gray-800 text-white py-6">
             <div className="container mx-auto px-6">
