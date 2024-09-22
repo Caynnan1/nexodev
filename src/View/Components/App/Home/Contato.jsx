@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contato = () => {
     return (
-<section className='py-16'>
+<section className='py-16' id='contato'>
   <h2 className="text-3xl font-bold text-blue-800 text-center mb-8">Entre em Contato</h2>
   <div className='flex flex-col sm:flex-row sm:justify-around items-center sm:items-start'>
     <ul className="mb-4 sm:mb-0 text-center sm:text-left">

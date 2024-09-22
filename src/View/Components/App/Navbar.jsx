@@ -19,7 +19,7 @@ export function Navbar() {
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-                <a className="relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-blue-50 bg-gradient-to-tr from-blue-900/30 via-blue-900/70 to-blue-900/30 ring-4 ring-blue-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity" href="">Logar</a>
+                <a className="relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-blue-50 bg-gradient-to-tr from-blue-900/30 via-blue-900/70 to-blue-900/30 ring-4 ring-blue-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity" href="/login">Logar</a>
             </div>
 
             {/* Botão para Mobile */}
@@ -39,6 +39,7 @@ export function Navbar() {
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#servicos">Serviços</a></li>
                         <li><a href="#contato">Contato</a></li>
+                        <li><a href="/login">Logar</a></li>
                     </ul>
                 </div>
             )}

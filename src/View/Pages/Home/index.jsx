@@ -1,10 +1,10 @@
 import { Navbar } from "../../Components/App/Navbar";
 import { motion } from "framer-motion";
 import image from '../../../assets/img/undraw_website_5bo8.svg'
-import Servicos from "../../Components/App/Servicos";
-import Contato from "../../Components/App/Contato";
-import { Portfolio } from "../../Components/App/Port";
-import { Blog } from "../../Components/App/Blog";
+import Servicos from "../../Components/App/Home/Servicos";
+import Contato from "../../Components/App/Home/Contato";
+import { Portfolio } from "../../Components/App/Home/Port";
+import { Blog } from "../../Components/App/Home/Blog";
 
 export default function Home() {
     return (
