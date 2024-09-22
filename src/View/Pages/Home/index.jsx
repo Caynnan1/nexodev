@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import image from '../../../assets/img/undraw_website_5bo8.svg'
 import Servicos from "../../Components/App/Servicos";
 import Contato from "../../Components/App/Contato";
+import { Portfolio } from "../../Components/App/Port";
 
 export default function Home() {
     return (
@@ -49,6 +50,7 @@ export default function Home() {
             </div>
         </section>
         <Servicos />
+        <Portfolio />
         <Contato />
         <footer className="bg-gray-800 text-white py-6">
             <div className="container mx-auto px-6">
