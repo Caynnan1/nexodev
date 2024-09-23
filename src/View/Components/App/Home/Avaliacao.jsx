@@ -26,7 +26,7 @@ export function Avaliacao() {
     <h2 className="text-3xl font-bold text-blue-800 text-center mb-8">Avaliações</h2>
     <div className="flex flex-col gap-5 justify-center items-center md:flex-row md:justify-around">
       {avaliacoes.map((avaliacao, index) => (
-        <article key={index} className="w-72 bg-gray-700 shadow p-4 space-y-2 rounded-md hover:-translate-y-2 duration-300">
+        <article key={index} className="w-72 bg-[#111d30] shadow p-4 space-y-2 rounded-md hover:-translate-y-2 duration-300">
           <div className="flex items-center gap-3">
             <svg
               viewBox="0 0 24 24"

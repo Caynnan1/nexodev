@@ -23,7 +23,7 @@ export default function Home() {
                     Transformamos suas ideias em <span className="mark">soluções digitais</span> que fazem a diferença.
                 </h3>
             </section>
-            <section id="sobre" className="flex flex-col items-center justify-center min-h-[60vh] gap-5 text-wrap p-4">
+            <section id="sobre" className="flex flex-col items-center justify-center min-h-[60vh] gap-10 text-wrap p-4">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col lg:flex-row items-center">
                     <div class="lg:w-1/2 mb-8 lg:mb-0">

@@ -25,7 +25,7 @@ export function Portfolio() {
             <h2 className="text-blue-800 text-3xl font-bold text-center mb-8">Nosso Portfólio</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project, index) => (
-                    <div key={index} className="bg shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <div key={index} className="bg-[#111d30] shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
                         <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover" />
                         <div className="p-4">
                             <h3 className="text-xl font-semibold">{project.title}</h3>
